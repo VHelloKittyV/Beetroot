@@ -1,0 +1,76 @@
+/* don't remove these styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+h2,
+li:hover {
+  cursor: pointer;
+}
+
+/* =============== todo =================*/
+
+.images {
+  text-align: center;
+}
+
+img {
+  max-width: 590px;
+  vertical-align: top;
+}
+
+h2:hover {
+  color: #ff0000;
+}
+
+a:hover::after {
+  content: "\25ba";
+  color: #ff0000;
+}
+
+a:hover {
+  color: #008000;
+  text-decoration: none;
+}
+a[href*="remix"]:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+li:hover::first-letter {
+  color: red;
+}
+h3 {
+  display: none;
+}
+
+li:first-of-type:before {
+  content: "\2660";
+}
+  
+li:nth-of-type(2)::before {
+  content: "\2663";
+}
+  
+li:nth-of-type(3)::before {
+  content: "\2665";
+}
+  
+li:last-of-type:before {
+  content: "\2666";
+}
+  
