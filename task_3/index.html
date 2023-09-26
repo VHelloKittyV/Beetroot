@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter</title>
+    <style>
+      table {
+        max-width: 800px;
+        margin: auto;
+      }
+
+      #logo {
+        text-align: center;
+      }
+
+      .left_block {
+        width: 30%;
+        padding: 10px;
+        vertical-align: text-top;
+        text-align: justify;
+      }
+      .mid_block,
+      .right_block {
+        width: 35%;
+        padding: 10px;
+        vertical-align: text-top;
+        text-align: justify;
+      }
+      
+      ol {
+        padding-left: 25px;
+      }
+      td.signature p {
+        text-align: right;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!--* Logo Image -->
+    
+    <table>
+      <tr>
+        <td colspan="3" id="logo">
+          <a href="https://www.netlify.com " target="_blank">
+            <img src="img/logo.jpg" alt="Logo Image" width="200px"
+          /></a>
+        </td>
+      </tr>
+
+      <!-- *Main Image -->
+
+      <tr>
+        <td colspan="3">
+          <img
+            class="main"
+            src="img/main.jpg"
+            alt="Main image"
+            width="800px"
+            usemap="#learn_more"
+          />
+          <map name="learn_more">
+            <area
+              shape="rect"
+              coords="29, 320, 240,360"
+              href="https://www.netlify.com/products/"
+              alt="learn more"
+            />
+          </map>
+        </td>
+      </tr>
+      <tr>
+
+        <!--* Text Section -->
+
+        <section>
+          <td class="left_block">
+            <article>
+              <p>Hi there,</p>
+              <p>
+                When Smashing Magazine approached Netlify, they managed a
+                dizzying number of tools across different functional areas of
+                their site including their magazine, content, e-commerce
+                platform, comments engine, subscription service and member
+                login.
+              </p>
+            </article>
+          </td>
+
+          <!-- *Mid Block -->
+
+          <td class="mid_block">
+            <article>
+              <ol>
+                <li>
+                  6x their site speed, from a load time of 800 ms to just 80 ms
+                </li>
+                <li>
+                  Migrate from several disparate tools to a single unified
+                  platform
+                </li>
+                <li>
+                  Build a design they loved without the limitations of WordPress
+                </li>
+                <li>
+                  Develop the most performant site possible with a focus on
+                  reliability and speed.
+                </li>
+              </ol>
+            </article>
+          </td>
+
+          <!-- *Right Block -->
+
+          <td class="right_block">
+            <article>
+              <ol>
+                <li>
+                  6x their site speed, from a load time of 800 ms to just 80 ms
+                </li>
+                <li>
+                  Migrate from several disparate tools to a single unified
+                  platform
+                </li>
+                <li>
+                  Build a design they loved without the limitations of WordPress
+                </li>
+                <li>
+                  Develop the most performant site possible with a focus on
+                  reliability and speed.
+                </li>
+              </ol>
+            </article>
+          </td>
+        </section>
+      </tr>
+
+      <!-- *Signature -->
+
+      <tr>
+        <td class="signature" colspan="3">
+          <p style="margin-bottom: 0px">Markus Seyfferth</p>
+          <p style="margin-top: 0px">CEO, Smashing Magazine</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
