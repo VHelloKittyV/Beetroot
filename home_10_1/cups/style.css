@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bcbcbc;
+  color: #bcbcbc;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.artboard {
+  background: #f7ed72;
+  display: flex;
+  /* width: 1198px;
+  padding: 40px; */
+  width: 1118px;
+  justify-content: center;
+  gap: 19px;
+  margin: 0 auto;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.card {
+  width: 360px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.dollar::before {
+  content: "\0024";
+}
+
+.price {
+  color: #02995b;
+  font-size: 70px;
+  margin-top: 39px;
+}
+
+.image {
+  width: 236px;
+}
+.name {
+  color: #000;
+  font-size: 56px;
+  text-transform: capitalize;
+}
+
+.info {
+  width: 140px;
+  margin-bottom: 53px;
+}
+
+.gold {
+  margin: -20px 0;
+}
